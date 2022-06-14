@@ -36,7 +36,7 @@ public class BrowserSelectionTest {
             // System.setProperty("webdriver.chrome.driver","resources/selenium-chrome-driver-4.1.2.jar");
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");     
+            // options.addArguments("--headless");     
 
 
             driver = new ChromeDriver(options);
