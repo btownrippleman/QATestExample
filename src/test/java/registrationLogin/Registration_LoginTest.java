@@ -9,7 +9,7 @@ import base.BrowserSelectionTest;
 public class Registration_LoginTest extends BrowserSelectionTest {
     @BeforeTest
     public void start(){
-        driver = this.StartBrowser("firefox");
+        driver = this.StartBrowser("edge");
     }
 
     @Test
