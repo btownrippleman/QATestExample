@@ -24,7 +24,7 @@ public class BrowserSelectionTest {
             // System.setProperty("webdriver.firefox.marionette","resources/geckodriver.exe");
             WebDriverManager.firefoxdriver().setup();
             FirefoxOptions options = new FirefoxOptions();
-            options.addArguments("--headless");     
+            // options.addArguments("--headless");     
 
             driver = new FirefoxDriver(options);
             HomePage homePage = new HomePage(driver);
