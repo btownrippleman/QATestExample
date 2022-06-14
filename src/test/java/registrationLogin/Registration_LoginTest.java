@@ -1,26 +1,19 @@
 package registrationLogin;
 
-import Pages.CreateAccountPage;
-import base.BrowserSelectionTest;
-
-import org.testng.annotations.AfterTest;
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
-
-import org.junit.After;
-import org.testng.Assert;
+import base.BrowserSelectionTest;
 
 public class Registration_LoginTest extends BrowserSelectionTest {
     @BeforeTest
     public void start(){
-        driver = this.StartBrowser("chrome");
+        driver = this.StartBrowser("edge");
     }
 
     @Test
     public void testRegistrationSuccessful() {
-        System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
         Assert.assertEquals(true,true);
         // CreateAccountPage createAccountPage = homepage.clickSignIn();
         // createAccountPage.setEmailaddress("Zoe1234@hotmail.com");

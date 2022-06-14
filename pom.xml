@@ -17,6 +17,13 @@
   </properties>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.2.0</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -67,14 +74,13 @@
     </dependency>
 
 
-<!-- 
+    <!-- 
 https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
-  <groupId>org.seleniumhq.selenium</groupId>
-  <artifactId>selenium-java</artifactId>
-  <version>4.0.0</version>
-</dependency>
-
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.0.0</version>
+    </dependency>
 
 
     <dependency>
@@ -102,14 +108,14 @@ https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
+
   </dependencies>
 
   <build>
     <pluginManagement>
       <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        
+
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
