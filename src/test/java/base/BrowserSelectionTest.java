@@ -24,7 +24,8 @@ public class BrowserSelectionTest {
             // System.setProperty("webdriver.firefox.marionette","resources/geckodriver.exe");
             WebDriverManager.firefoxdriver().setup();
             FirefoxOptions options = new FirefoxOptions();
-            options.addArguments("--headless");
+            //options.addArguments("--headless");     
+
             driver = new FirefoxDriver(options);
             HomePage homePage = new HomePage(driver);
             driver.get("http://automationpractice.com/index.php?");
@@ -36,6 +37,7 @@ public class BrowserSelectionTest {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");     
+
 
             driver = new ChromeDriver(options);
             HomePage homePage = new HomePage(driver);
@@ -49,7 +51,8 @@ public class BrowserSelectionTest {
             // Instantiate a EdgeDriverclass.
             EdgeOptions options = new EdgeOptions();
             WebDriverManager.edgedriver().setup();
-            options.addArguments("--headless");
+            //options.addArguments("--headless");     
+
             driver = new EdgeDriver(options);
             HomePage homePage = new HomePage(driver);
             driver.get("http://automationpractice.com/index.php?");

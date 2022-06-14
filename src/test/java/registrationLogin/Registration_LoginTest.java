@@ -16,6 +16,7 @@ public class Registration_LoginTest extends BrowserSelectionTest {
     public void testRegistrationSuccessful() {
         Assert.assertEquals(true,true);
         System.out.println(driver.getCurrentUrl()+" is the current url XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx");
+        System.out.println(driver.getPageSource());
         // CreateAccountPage createAccountPage = homepage.clickSignIn();
         // createAccountPage.setEmailaddress("Zoe1234@hotmail.com");
         // createAccountPage.setpasswrd("Zoe1234", String);
