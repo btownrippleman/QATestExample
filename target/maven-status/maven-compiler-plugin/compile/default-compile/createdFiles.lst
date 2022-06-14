@@ -1,0 +1,8 @@
+Pages/ProductDetailsPage.class
+org/example/App.class
+Pages/HomePage.class
+Pages/SearchFeaturePage.class
+Pages/LoginPage.class
+Pages/CreateAccountPage.class
+Pages/MyAccountPage.class
+Pages/MyAccountPage$SigninButton.class

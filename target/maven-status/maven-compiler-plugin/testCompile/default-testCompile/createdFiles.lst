@@ -1,0 +1,5 @@
+org/example/AppTest.class
+base/BrowserSelectionTest.class
+ProductDetails/ProductDetailsTest.class
+registrationLogin/Registration_LoginTest.class
+SearchFeature/SearchFeatureTest.class

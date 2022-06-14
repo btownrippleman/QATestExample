@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ZenobiaMayfield_ecom.sba"
+           tests="2"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="0.010">
+    <properties></properties>
+
+            <testcase
+                name="tearDown"
+                time="0.004"
+                classname="registrationLogin.Registration_LoginTest">
+
+            <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;base.BrowserSelectionTest.driver&quot; is null">
+                <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "base.BrowserSelectionTest.driver" is null
+                base.BrowserSelectionTest.tearDown(BrowserSelectionTest.java:53)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:222)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:806)org.testng.TestRunner.run(TestRunner.java:601)org.testng.SuiteRunner.runTest(SuiteRunner.java:433)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)org.testng.SuiteRunner.run(SuiteRunner.java:330)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)org.testng.TestNG.runSuitesLocally(TestNG.java:1176)org.testng.TestNG.runSuites(TestNG.java:1099)org.testng.TestNG.run(TestNG.java:1067)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="testRegistrationSuccessful"
+                time="0.006"
+                classname="registrationLogin.Registration_LoginTest">
+
+            <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;Pages.HomePage.clickSignIn()&quot; because &quot;this.homepage&quot; is null">
+                <![CDATA[java.lang.NullPointerException: Cannot invoke "Pages.HomePage.clickSignIn()" because "this.homepage" is null
+                registrationLogin.Registration_LoginTest.testRegistrationSuccessful(Registration_LoginTest.java:13)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:806)org.testng.TestRunner.run(TestRunner.java:601)org.testng.SuiteRunner.runTest(SuiteRunner.java:433)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)org.testng.SuiteRunner.run(SuiteRunner.java:330)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)org.testng.TestNG.runSuitesLocally(TestNG.java:1176)org.testng.TestNG.runSuites(TestNG.java:1099)org.testng.TestNG.run(TestNG.java:1067)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>
