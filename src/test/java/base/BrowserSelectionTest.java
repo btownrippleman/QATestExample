@@ -42,6 +42,7 @@ public class BrowserSelectionTest {
             }
 
             actions.moveByOffset(0, 100).click().build().perform();
+// checking for auto build
 
         }
         // ---- If the browser is Chrome--m"Chrome")) {
