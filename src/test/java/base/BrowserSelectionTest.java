@@ -11,6 +11,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import java.lang.Thread;
 
 public class BrowserSelectionTest {
     protected HomePage homepage;
@@ -27,11 +30,21 @@ public class BrowserSelectionTest {
             // options.addArguments("--headless");     
 
             driver = new FirefoxDriver(options);
+            Actions actions = new Actions(driver);
+
             HomePage homePage = new HomePage(driver);
             driver.get("http://automationpractice.com/index.php?");
+            try{
+                Thread.sleep(10000);
+
+            } catch(Exception e){
+                System.out.println("can't sleep");
+            }
+
+            actions.moveByOffset(0, 100).click().build().perform();
+
         }
-        // ---- If the browser is Chrome--
-        else if (browsername.equalsIgnoreCase("Chrome")) {
+        // ---- If the browser is Chrome--m"Chrome")) {
             // Set the path for chromedriver.exe
             // System.setProperty("webdriver.chrome.driver","resources/selenium-chrome-driver-4.1.2.jar");
             WebDriverManager.chromedriver().setup();
