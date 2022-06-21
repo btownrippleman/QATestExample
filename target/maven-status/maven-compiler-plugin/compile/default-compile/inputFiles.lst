@@ -1,7 +1,7 @@
-/home/brady/Downloads/ZenobiaMayfield_ecom.sba/src/main/java/Pages/SearchFeaturePage.java
-/home/brady/Downloads/ZenobiaMayfield_ecom.sba/src/main/java/Pages/ProductDetailsPage.java
-/home/brady/Downloads/ZenobiaMayfield_ecom.sba/src/main/java/Pages/HomePage.java
-/home/brady/Downloads/ZenobiaMayfield_ecom.sba/src/main/java/org/example/App.java
-/home/brady/Downloads/ZenobiaMayfield_ecom.sba/src/main/java/Pages/LoginPage.java
-/home/brady/Downloads/ZenobiaMayfield_ecom.sba/src/main/java/Pages/MyAccountPage.java
-/home/brady/Downloads/ZenobiaMayfield_ecom.sba/src/main/java/Pages/CreateAccountPage.java
+/home/brady/QATestExample/src/main/java/Pages/LoginPage.java
+/home/brady/QATestExample/src/main/java/org/example/App.java
+/home/brady/QATestExample/src/main/java/Pages/MyAccountPage.java
+/home/brady/QATestExample/src/main/java/Pages/ProductDetailsPage.java
+/home/brady/QATestExample/src/main/java/Pages/HomePage.java
+/home/brady/QATestExample/src/main/java/Pages/SearchFeaturePage.java
+/home/brady/QATestExample/src/main/java/Pages/CreateAccountPage.java

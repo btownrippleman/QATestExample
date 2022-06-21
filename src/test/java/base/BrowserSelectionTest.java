@@ -17,7 +17,7 @@ import java.lang.Thread;
 
 public class BrowserSelectionTest {
     protected HomePage homepage;
-    protected WebDriver driver;
+    public WebDriver driver;
 
     public WebDriver StartBrowser(String browsername) {
         // ---If the browser is Firefox----
@@ -45,7 +45,7 @@ public class BrowserSelectionTest {
 // checking for auto build
 
         }
-        // ---- If the browser is Chrome--m"Chrome")) {
+        else if (browsername.equalsIgnoreCase("Chrome")) {
             // Set the path for chromedriver.exe
             // System.setProperty("webdriver.chrome.driver","resources/selenium-chrome-driver-4.1.2.jar");
             WebDriverManager.chromedriver().setup();
